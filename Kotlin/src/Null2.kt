@@ -7,5 +7,9 @@ fun main() {
 
     var a:String?="Hello there"
     a = null
-    return if(a!=null) println("a is not a nullvalue $a") else println("a is null value $a")
+    return if(a!=null) {
+        println("a is not a nullvalue $a")
+    } else {
+        println("a is null value $a")
+    }
 }
