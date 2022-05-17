@@ -4,10 +4,10 @@ open class Labour(){
     }
 }
 class Gender: Labour {
-    constructor(name:String,age:String,gender:String):super(name,age){
+    constructor(name:String, age:String, gender:String):super(name,age){
         println("Child constructor--- Name is $name age is $age gender is $gender")
     }
 }
 fun main(){
-    val obj = Gender("Pavan","22","Male")
+    Gender("Pavan","22","Male")
 }
